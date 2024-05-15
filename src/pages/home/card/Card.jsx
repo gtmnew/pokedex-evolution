@@ -91,6 +91,7 @@ export default function Card({ card }) {
     pokeId = "0" + pokeId;
   }
   console.log(especiePokemon);
+
   return (
     <div className={css.card}>
       <img
